@@ -3,8 +3,8 @@
 efficient Join Order selection learninG with Graph-basEd Representation (JOGGER) is an efficient optimizer for solving the Join order Selection(JOS) problem. It uses the curriculum learning, reinforcement learning and a tailored-tree-based attention module to generate query plan.  
 
 # Requirements
-- Pytorch 1.0
-- Python 3.7
+- Python 3.7 
+- Pytorch 1.7
 - psqlparse
 - deepwalk 1.0.3
 
