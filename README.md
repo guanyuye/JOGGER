@@ -1,6 +1,21 @@
 
 # ICDE2022_JOGGER
-efficient Join Order selection learninG with Graph-basEd Representation (JOGGER) is an efficient optimizer for solving the Join order Selection(JOS) problem. It utilizes the curriculum learning, reinforcement learning and a tailored-tree-based attention module to generate query plan.  
+efficient Join Order selection learninG with Graph-basEd Representation (JOGGER) is an efficient optimizer for solving the Join order Selection(JOS) problem. It utilizes the curriculum learning, reinforcement learning and a tailored-tree-based attention module to generate query plan. 
+
+# Important parameters
+You can run `train_JOGGER_main.py` to optimize the model
+Here we have listed the most important parameters. 
++ `-ed` tree embedding dimension
++ `-gd` graph embedding dimension
++ `-b` batch size
++ `-e` episode
++ `--model` model : DQ,RTOS,JOGGER(proposed method),JOGGER w/o CLO,JOGGER w/o CTRL&CLO
++ `-f` dataset
++ `-lr` learning rate
++ `-ga` gamma
++ `-wd` weight decay
+
+
 
 # Requirements
 - Python 3.7 
